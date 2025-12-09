@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asma Ilyas - Front-End WordPress Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">Asma Ilyas</a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#wordpress">WordPress</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Asma Ilyas</h1>
+                <p>Front-End WordPress Developer specializing in creating beautiful, responsive websites with exceptional user experiences.</p>
+                <div class="hero-btns">
+                    <a href="#skills" class="btn btn-orange">My Technical Skills</a>
+                    <a href="#wordpress" class="btn btn-orange">WordPress Expertise</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#7E57C2;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#5E35B1;stop-opacity:1" />
+                    </linearGradient>
+                    <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                        <stop offset="0%" style="stop-color:#FF4081;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#E91E63;stop-opacity:1" />
+                    </radialGradient>
+                </defs>
+                <path fill="url(#grad1)" d="M83.4,279.6c24.5-55.1,89-79.8,144.1-55.3c55.1,24.5,79.8,89,55.3,144.1c-24.5,55.1-89,79.8-144.1,55.3 C89.6,399.2,64.9,334.7,89.4,279.6z"/>
+                <path fill="url(#grad2)" d="M350,150c0,55.2-44.8,100-100,100s-100-44.8-100-100s44.8-100,100-100S350,94.8,350,150z"/>
+                <path fill="#18FFFF" d="M400,350c0,27.6-22.4,50-50,50s-50-22.4-50-50s22.4-50,50-50S400,322.4,400,350z"/>
+            </svg>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Front-End WordPress Developer</h3>
+                    <p>I am a passionate front-end developer specializing in WordPress design and development. With 2 years of experience in WordPress development and a 6-month internship, I have honed my skills in creating responsive, user-friendly websites.</p>
+                    <p>My technical expertise includes HTML5, CSS3, JavaScript, Bootstrap, and WordPress theme customization. I focus on creating visually appealing interfaces with excellent user experience.</p>
+                    <p>I'm seeking a challenging position where I can apply my front-end development skills, learn new technologies, and contribute to creating outstanding digital experiences.</p>
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#skills" class="btn btn-accent">My Skills</a>
+                </div>
+                <div class="about-image" id="about-image">
+                    <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="200" cy="200" r="180" fill="#7E57C2" opacity="0.1"/>
+                        <circle cx="200" cy="180" r="80" fill="#7E57C2" opacity="0.3"/>
+                        <path d="M150,300 Q200,350 250,300 L250,380 L150,380 Z" fill="#7E57C2" opacity="0.5"/>
+                        <circle cx="180" cy="160" r="10" fill="#5E35B1"/>
+                        <circle cx="220" cy="160" r="10" fill="#5E35B1"/>
+                        <path d="M170,200 Q200,220 230,200" stroke="#5E35B1" stroke-width="5" fill="none"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category" id="skill1">
+                    <h3><i class="fas fa-laptop-code"></i> Front-End Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Bootstrap</div>
+                        <div class="skill-item">Responsive Design</div>
+                        <div class="skill-item">CSS Grid & Flexbox</div>
+                    </div>
+                </div>
+                <div class="skill-category" id="skill2">
+                    <h3><i class="fas fa-palette"></i> Design & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">UI/UX Design</div>
+                        <div class="skill-item">Adobe XD</div>
+                        <div class="skill-item">Figma</div>
+                        <div class="skill-item">Canva</div>
+                        <div class="skill-item">Photo Editing</div>
+                    </div>
+                </div>
+                <div class="skill-category" id="skill3">
+                    <h3><i class="fas fa-comments"></i> Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Communication</div>
+                        <div class="skill-item">Problem Solving</div>
+                        <div class="skill-item">Teamwork</div>
+                        <div class="skill-item">Time Management</div>
+                        <div class="skill-item">Attention to Detail</div>
+                    </div>
+                </div>
+                <div class="skill-category" id="skill4">
+                    <h3><i class="fas fa-language"></i> Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">English</div>
+                        <div class="skill-item">Urdu</div>
+                        <div class="skill-item">Punjabi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WordPress Skills Section -->
+    <section class="wordpress-skills" id="wordpress">
+        <div class="container">
+            <div class="section-title">
+                <h2>WordPress Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" id="wp-skill1">
+                    <i class="fab fa-wordpress"></i>
+                    <h3>Theme Development</h3>
+                    <p>Custom WordPress theme development from scratch with responsive design and modern standards.</p>
+                </div>
+                <div class="skill-card" id="wp-skill2">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Theme Customization</h3>
+                    <p>Extensive experience customizing existing themes to match client requirements and brand identity.</p>
+                </div>
+                <div class="skill-card" id="wp-skill3">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Creating websites that work perfectly on all devices - desktop, tablet, and mobile.</p>
+                </div>
+                <div class="skill-card" id="wp-skill4">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Performance Optimization</h3>
+                    <p>Optimizing WordPress sites for speed and performance to enhance user experience.</p>
+                </div>
+                <div class="skill-card" id="wp-skill5">
+                    <i class="fas fa-plug"></i>
+                    <h3>Plugin Integration</h3>
+                    <p>Expertise in integrating and customizing popular WordPress plugins for enhanced functionality.</p>
+                </div>
+                <div class="skill-card" id="wp-skill6">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Best Practices</h3>
+                    <p>Implementing SEO-friendly structures and markup to improve search engine visibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" id="project1">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Website</h3>
+                        <p>Custom WordPress e-commerce site with WooCommerce integration, product filtering, and secure payment processing.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">WordPress</span>
+                            <span class="project-tag">WooCommerce</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')">
+                    </div>
+                    <div class="project-content">
+                        <h3>Blog Platform</h3>
+                        <p>Responsive blog website with custom theme, category organization, and social media integration.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">WordPress</span>
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')">
+                    </div>
+                    <div class="project-content">
+                        <h3>Business Website</h3>
+                        <p>Corporate website with custom design, service pages, contact forms, and mobile-responsive layout.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#contact" class="btn btn-glow">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education & Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" id="timeline1">
+                    <div class="timeline-content">
+                        <h3>Matriculation in Computer Science</h3>
+                        <h4>Wanhar Academy of Excellence</h4>
+                        <p>2015 - 2017</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline2">
+                    <div class="timeline-content">
+                        <h3>Intermediate Computer Science</h3>
+                        <h4>Kallar Kahar Science College</h4>
+                        <p>2017 - 2019</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline3">
+                    <div class="timeline-content">
+                        <h3>One Year Taleem-e-Deen Course</h3>
+                        <h4>Alhuda International Welfare Foundation</h4>
+                        <p>2019 - 2020</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline4">
+                    <div class="timeline-content">
+                        <h3>3 Months Basic Course</h3>
+                        <h4>Info Tech Computer College</h4>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline5">
+                    <div class="timeline-content">
+                        <h3>Graduation In Arts</h3>
+                        <h4>Punjab University</h4>
+                        <p>2020 - 2022</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline6">
+                    <div class="timeline-content">
+                        <h3>One Year Computer Operator Course</h3>
+                        <h4>Govt Technical Training Center</h4>
+                        <p>2022 - 2023</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline7">
+                    <div class="timeline-content">
+                        <h3>3 Months Web Development Course</h3>
+                        <h4>Milestone Institute of Arts and Sciences</h4>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline8">
+                    <div class="timeline-content">
+                        <h3>6 Months Internship in WordPress</h3>
+                        <h4>Alumination</h4>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="timeline9">
+                    <div class="timeline-content">
+                        <h3>2 Years WordPress Web Development Experience</h3>
+                        <h4>Freelance & Projects</h4>
+                        <p>2021 - 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>03329854692</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>ow33298@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>VPO Buchal Kalan Kallar Kahar Chakwal</span>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#home" class="btn btn-glow">Back to Top</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <p class="copyright">© 2023 Asma Ilyas. All Rights Reserved.</p>
+        </div>
+    </footer>
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
